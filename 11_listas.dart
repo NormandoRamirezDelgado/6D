@@ -4,12 +4,15 @@ void main() {
 
   // Lista de cadenas
   List<String> nombres = ['Ana', 'Luis', 'Carlos'];
+  print(nombres);
 
   // Lista vacía con tipo definido
   List<double> precios = [];
+  print(precios);
 
   // Lista de tipo dinámico
   List<dynamic> miLista = [1, "Hola", true];
+  print(miLista);
 
   List<String> frutas = ['Manzana', 'Banana', 'Cereza', 'Uva'];
 
@@ -21,7 +24,7 @@ void main() {
   List<int> numeros = [10, 20, 30];
 
   numeros[1] = 25; // Modifica el segundo elemento
-  print(numeros); 
+  print(numeros);
   numeros.add(40); // Agrega un nuevo elemento
   print(numeros);
   numeros.insert(1, 15); // Inserta en la posición 1
