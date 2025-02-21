@@ -24,5 +24,4 @@ void main(List<String> args) {
   String valor = stdin.readLineSync()!;
   nombres[clave] = valor;
   print(nombres);
-
 }
