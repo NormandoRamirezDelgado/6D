@@ -1,5 +1,5 @@
 void main() {
-  Set<int> enteros = {1, 2, 3, 4, 5, 5}; // Se eliminan los duplicados automáticamente
+  Set<int> enteros = {1, 2, 3, 4, 5}; // Se eliminan los duplicados automáticamente
   print(enteros); // {1, 2, 3, 4, 5}
 
   var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
