@@ -29,7 +29,4 @@ void main(List<String> args) {
   }
   print('El Mayor es $mayor');
   print('El Menor es $menor');
-
-  numeros.sort()
-
 }
