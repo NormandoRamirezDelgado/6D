@@ -23,5 +23,5 @@ void main(List<String> args) {
   print('Valor: ');
   String valor = stdin.readLineSync()!;
   nombres[clave] = valor;
-  print(nombres);
+  print(nombres); 
 }
