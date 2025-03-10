@@ -1,7 +1,7 @@
 import 'dart:io';
 
 class Promedio {
-  int numero = 0;
+  List<int> numero = [];
   int suma = 0;
   double promedio = 0;
   int contador = 0;
@@ -9,16 +9,16 @@ class Promedio {
   Promedio();
 
   sumar(){
-    this.suma = this.suma + this.numero;
-    this.contador = this.contador + 1;
+    suma = suma + this.numero[contador];
+    contador = contador + 1;
   }
 
   calcularPromedio(){
-    this.promedio = this.suma / this.contador;
+    promedio = suma / contador;
   }
 
   imprimir(){
-    print('EL promedio es: ${this.promedio}');
+    print('EL promedio es: $promedio');
   }
 }
 
@@ -29,7 +29,7 @@ void main(List<String> args) {
   //Promedio promedio = Promedio();
   do {
     print('Introducir un valor entero:');
-    promedio.numero = int.parse(stdin.readLineSync()!);
+    promedio.numero[0] = int.parse(stdin.readLineSync()!);
     promedio.sumar();
     print('Desea introducir otro valor? (s/n)');
     respuesta = stdin.readLineSync()!;
