@@ -28,6 +28,4 @@ void main() {
   Figura trapecio = Figura(baseMayor, baseMenor, altura);
   trapecio.calcularArea();
   trapecio.imprimirArea();
-
-
 }

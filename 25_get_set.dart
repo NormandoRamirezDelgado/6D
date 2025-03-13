@@ -27,4 +27,5 @@ void main() {
 
   cuenta.deposito = -2500; // ❌ Mensaje de error: No se puede asignar saldo negativo
   print(cuenta.leerSaldo);
+
 }
